@@ -1,0 +1,69 @@
+.contact-area {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.contact-line {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.contact-box1 {
+  width: 150px;
+  height: 7rem;
+  float: left;
+}
+.contact-box1 p{
+  margin :auto;
+  float: right;
+  padding-right: 20px;
+}
+.contact-box2 {
+  width: 480px;
+  float: left;
+}
+.contact-box2 input {
+  width: 100%;
+  float: right;
+}
+.contact-box2-checkbox{
+  width: 40%;
+  height: auto;
+  float: left;
+}
+p.contact-box2-checkbox input.contact-box2-checkbox{
+  margin: auto;
+  float: left;
+  height: 7rem;
+}
+.contact-box2-checkbox-text{
+  width: 50%;
+  float: left;
+}
+.contact-box2-checkbox-text p{
+  margin :auto;
+  float: left;
+}
+.contact-box2 button{
+  border: none;
+  color: #fff;
+  background-color: #42A0B0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  cursor: pointer;
+}
+.contact-box2 button:hover{
+  border: none;
+  color: #fff;
+  background-color: #42A0B1;
+  opacity: 0.5;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  cursor: pointer;
+}
