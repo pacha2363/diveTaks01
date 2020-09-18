@@ -28,17 +28,11 @@
           <ul>
             <li><a href="business.html">事業内容</a></li>
             <li><a href="company.html">会社概要</a></li>
-            <li><a href="contact.html">お問い合わせ</a></li>
+            <li class="active"><a href="contact.html">お問い合わせ</a></li>
           </ul>
         </nav> <!-- この行まで追記 -->
-        <p class="banner"> <!-- この行から追記 -->
-          <a href="#">
-            <img src="./images/banner.png">
-          </a>
-        </p> <!-- この行まで追記 -->
       </aside>
       <article class="content">
-        <h2>Contact form</h2>
         <div class="contact-area">
           <form action="">
             <div class="contact-line">
@@ -61,23 +55,16 @@
               <div class="contact-box1">
                 <p>Your gender : </p>
               </div>
-              <div class="contact-box2">
-                <div class="contact-box2-checkbox">
-                  <div class="contact-box2-checkbox-text">
-                    <input type="checkbox">
-                  </div>
-                  <div class="contact-box2-checkbox-text">
-                    <p> Man</p>
-                  </div>
-
+              <div class="contact-box3">
+                <div class="contact-box2-checkbox radio-inline">
+                  <label>Woman
+                    <input type="radio" name="gender" value="Woman"/>
+                  </label>
                 </div>
-                <div class="contact-box2-checkbox">
-                  <div class="contact-box2-checkbox-text">
-                    <input type="checkbox">
-                  </div>
-                  <div class="contact-box2-checkbox-text">
-                    <p> Woman</p>
-                  </div>
+                <div class="contact-box2-checkbox radio-inline">
+                  <label>Man
+                    <input type="radio" name="gender" value="man"/>
+                  </label>
                 </div>
               </div>
             </div>
@@ -97,11 +84,6 @@
               </div>
             </div>
           </form>
-
-
-
-
-
         </div>
       </article>
     </div>

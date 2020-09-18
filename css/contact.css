@@ -22,20 +22,20 @@
   width: 480px;
   float: left;
 }
+.contact-box3 {
+  width: 400px;
+  float: left;
+}
 .contact-box2 input {
-  width: 100%;
+  width: 480px;
   float: right;
 }
 .contact-box2-checkbox{
-  width: 40%;
+  width: 30%;
   height: auto;
   float: left;
 }
-p.contact-box2-checkbox input.contact-box2-checkbox{
-  margin: auto;
-  float: left;
-  height: 7rem;
-}
+
 .contact-box2-checkbox-text{
   width: 50%;
   float: left;
@@ -66,4 +66,29 @@ p.contact-box2-checkbox input.contact-box2-checkbox{
   display: inline-block;
   font-size: 22px;
   cursor: pointer;
+}
+.contact-box2-checkbox label {
+  RepeatDirection="Horizontal";
+}
+.radio-inline input[type=radio]{position:absolute;margin-top:4px\9;margin-left:5px}
+
+.radio-inline{
+  position:relative;
+  display:inline-block;
+  padding-left:20px;
+  margin-bottom:0;
+  font-weight:400;
+  vertical-align:middle;
+  cursor:pointer
+}
+.side_menu li.active a{
+  font-size:2rem;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+.side_menu li.active{
+  opacity: 0.4;
+  color: #000;
 }
